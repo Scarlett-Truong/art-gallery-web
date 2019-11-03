@@ -28,7 +28,7 @@ app.post('/products', (req, res) => {
   return res.json(products);
 });
 
-const PORT = process.env.YOUR_PORT || 8000;
+const PORT = process.env.PORT || 8000;
 
 app.listen(PORT);
 console.log('Server is runnging on port ' + PORT + ': ');
